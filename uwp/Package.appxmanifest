@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="sample-gl-uwp"
-    Publisher="CN=danwo"
+    Name="uwp-gl-sample"
+    Publisher="CN=SternXD"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="5a528e66-e0fc-43fb-b377-ce0b1bb0d3e8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Sample GL UWP</DisplayName>
-    <PublisherDisplayName>danwo</PublisherDisplayName>
+    <DisplayName>OpenGL System Info</DisplayName>
+    <PublisherDisplayName>SternXD</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -39,7 +39,8 @@
         Description="Sample application demonstrating OpenGL via Mesa on UWP"
         BackgroundColor="transparent">
 	<!--<uap:SplashScreen Image="Assets\SplashScreen.png" /> -->
-        <uap:DefaultTile/>
+        <uap:DefaultTile Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\WideTile.png" Square310x310Logo="Assets\LargeTile.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png"/>
       </uap:VisualElements>
     </Application>
   </Applications>
