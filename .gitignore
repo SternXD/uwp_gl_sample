@@ -396,3 +396,14 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Dependencies
+!deps/
+!deps/bin/
+!deps/bin/**
+!deps/include/
+!deps/include/**
+!deps/lib/
+!deps/lib/**
+!deps/share/
+!deps/share/**
